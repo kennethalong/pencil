@@ -1,7 +1,7 @@
 function AboutDialog () {
     Dialog.call(this);
     this.tabCurrentActive;
-    this.title = "About Pencil";
+    this.title = "About RPGMap";
     this.version.innerText = pkgInfo.version;
 }
 

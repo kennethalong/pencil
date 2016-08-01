@@ -102,7 +102,7 @@ ApplicationPane.prototype.invalidateUIForControllerStatus = function () {
         this.pageListView.renderPages()
     } else {
         this.pageListView.node().style.display = "none";
-        document.title = "Pencil";
+        document.title = "RPGMap";
     }
 
 };
